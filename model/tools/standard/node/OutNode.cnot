@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Notation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.circuitworkbench.com/library/model/notation" xmi:id="_OnDsYW1sEfChCboXAvIylg" title="Node" tooltip="Output Node" hint="onode" path="/standard/node" iconSm="OutNode.png" iconLg="OutNode@2x.png" diagram="OutNode.cdgm">
+  <semantic>OutNode.csem</semantic>
+</notation:Notation>

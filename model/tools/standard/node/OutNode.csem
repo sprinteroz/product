@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semantic:Semantic xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semantic="http://www.circuitworkbench.com/library/model/semantic" xmi:id="_7mtA4G1rEfChCboXAvIylg" abstraction="false" title="OutNode" description="Output Node" egl="OutNode.egl" evl="OutNode.evl">
+</semantic:Semantic>
