@@ -3,7 +3,7 @@
 <repository name='Bundle pool' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
     <property name='p2.system' value='true'/>
-    <property name='p2.timestamp' value='1754244372608'/>
+    <property name='p2.timestamp' value='1761940822997'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
@@ -76,9 +76,9 @@
         <property name='download.size' value='13569732'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.nebula.widgets.cdatetime' version='1.5.0.202402091246'>
+    <artifact classifier='osgi.bundle' id='com.circuitworkbench.launcher' version='1.0.0.202510311533'>
       <properties size='1'>
-        <property name='download.size' value='114536'/>
+        <property name='download.size' value='71996'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.commons.jxpath' version='1.3.0.v200911051830'>
@@ -98,7 +98,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='com.circuitworkbench.diagram' version='1.0.0.202508031353'>
       <properties size='1'>
-        <property name='download.size' value='611229'/>
+        <property name='download.size' value='611219'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.google.guava' version='33.4.8.jre'>
@@ -173,7 +173,7 @@
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='com.circuitworkbench.feature.model' version='1.0.0.202508031201'>
       <properties size='1'>
-        <property name='download.size' value='12859'/>
+        <property name='download.size' value='12860'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -214,11 +214,6 @@
         <property name='download.size' value='145179'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.nebula.visualization.xygraph' version='3.1.1.202402011804'>
-      <properties size='1'>
-        <property name='download.size' value='383901'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.gmf.runtime.emf.type.core' version='1.10.0.202501291447'>
       <properties size='1'>
         <property name='download.size' value='199722'/>
@@ -231,7 +226,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='com.circuitworkbench.library.diagram' version='1.0.0.202508031353'>
       <properties size='1'>
-        <property name='download.size' value='326970'/>
+        <property name='download.size' value='326975'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.osgi' version='3.23.100.v20250514-1759'>
@@ -401,7 +396,7 @@
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='com.circuitworkbench.feature.common' version='1.0.0.202507141918'>
       <properties size='1'>
-        <property name='download.size' value='12926'/>
+        <property name='download.size' value='12929'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -449,7 +444,7 @@
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='com.circuitworkbench.feature.samples' version='1.0.0.202507171958'>
       <properties size='1'>
-        <property name='download.size' value='12858'/>
+        <property name='download.size' value='12861'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -836,6 +831,11 @@
         <property name='download.size' value='631722'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.nebula.cwt' version='1.1.0.202509131601'>
+      <properties size='1'>
+        <property name='download.size' value='164590'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.p2.touchpoint.natives' version='1.5.600.v20250519-0525'>
       <properties size='1'>
         <property name='download.size' value='93565'/>
@@ -908,7 +908,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='com.circuitworkbench.help' version='1.0.0.202507141918'>
       <properties size='1'>
-        <property name='download.size' value='1421100'/>
+        <property name='download.size' value='1421116'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.equinox.jsp.jasper' version='1.2.300.v20250519-0531'>
@@ -928,7 +928,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='com.circuitworkbench.schematic' version='1.0.0.202508031201'>
       <properties size='1'>
-        <property name='download.size' value='66801'/>
+        <property name='download.size' value='66811'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.jface.text' version='3.28.0.v20250520-1938'>
@@ -971,9 +971,19 @@
         <property name='download.size' value='307507'/>
       </properties>
     </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.draw2d' version='3.20.100.202508011427'>
+      <properties size='1'>
+        <property name='download.size' value='657504'/>
+      </properties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='com.sun.jna.platform' version='5.17.0'>
       <properties size='1'>
         <property name='download.size' value='1378617'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.gef' version='3.23.0.202507261623'>
+      <properties size='1'>
+        <property name='download.size' value='1156760'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.ant' version='1.10.15.v20240901-1000'>
@@ -1066,14 +1076,6 @@
       <properties size='1'>
         <property name='download.size' value='73729'/>
       </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='com.circuitworkbench.feature.sdt' version='1.0.0.202508031353'>
-      <properties size='1'>
-        <property name='download.size' value='12956'/>
-      </properties>
-      <repositoryProperties size='1'>
-        <property name='artifact.folder' value='true'/>
-      </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.e4.ui.ide' version='3.17.200.v20231201-1637'>
       <properties size='1'>
@@ -1265,7 +1267,7 @@
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='com.circuitworkbench.feature.docs' version='1.0.0.202508031201'>
       <properties size='1'>
-        <property name='download.size' value='12936'/>
+        <property name='download.size' value='12940'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -1341,6 +1343,14 @@
         <property name='download.size' value='23641'/>
       </properties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='com.circuitworkbench.feature.sdt' version='1.0.0.202510311533'>
+      <properties size='1'>
+        <property name='download.size' value='12963'/>
+      </properties>
+      <repositoryProperties size='1'>
+        <property name='artifact.folder' value='true'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.egl.dt' version='2.8.0.202502191012'>
       <properties size='1'>
         <property name='download.size' value='401025'/>
@@ -1363,7 +1373,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='com.circuitworkbench.application' version='1.0.0.202507181958'>
       <properties size='1'>
-        <property name='download.size' value='566862'/>
+        <property name='download.size' value='464705'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ltk.core.refactoring' version='3.15.0.v20241206-0650'>
@@ -1373,17 +1383,12 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='com.circuitworkbench.cheatsheet' version='1.0.0.202507141918'>
       <properties size='1'>
-        <property name='download.size' value='49738'/>
+        <property name='download.size' value='49751'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.core.variables' version='3.6.500.v20240702-1152'>
       <properties size='1'>
         <property name='download.size' value='39848'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.draw2d' version='3.20.0.202505280821'>
-      <properties size='1'>
-        <property name='download.size' value='686649'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.gmf.runtime.common.ui.printing.win32' version='1.8.0.202501291447'>
@@ -1408,7 +1413,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='com.circuitworkbench.library.model' version='1.0.0.202508031353'>
       <properties size='1'>
-        <property name='download.size' value='97103'/>
+        <property name='download.size' value='97110'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.ui.ide' version='3.22.600.v20250523-1502'>
@@ -1429,6 +1434,11 @@
     <artifact classifier='osgi.bundle' id='org.eclipse.jface.notifications' version='0.7.400.v20250426-1415'>
       <properties size='1'>
         <property name='download.size' value='37534'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.nebula.visualization.xygraph' version='3.1.1.202509131601'>
+      <properties size='1'>
+        <property name='download.size' value='387877'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.epsilon.common.dt' version='2.8.0.202502191012'>
@@ -1548,7 +1558,7 @@
     </artifact>
     <artifact classifier='osgi.bundle' id='com.circuitworkbench.library' version='1.0.0.202508031353'>
       <properties size='1'>
-        <property name='download.size' value='174259'/>
+        <property name='download.size' value='174268'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.apache.httpcomponents.client5.httpclient5' version='5.4.4.v20250501-1000'>
@@ -1601,11 +1611,6 @@
         <property name='download.size' value='214050'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='com.circuitworkbench.launcher' version='1.0.0.202507262117'>
-      <properties size='1'>
-        <property name='download.size' value='72104'/>
-      </properties>
-    </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.emf.mwe2.runtime' version='2.22.0.v20250524-0648'>
       <properties size='1'>
         <property name='download.size' value='18593'/>
@@ -1644,11 +1649,6 @@
     <artifact classifier='osgi.bundle' id='org.apache.batik.anim' version='1.18.0.v20241009-1200'>
       <properties size='1'>
         <property name='download.size' value='538099'/>
-      </properties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.nebula.cwt' version='1.1.0.202402091246'>
-      <properties size='1'>
-        <property name='download.size' value='162934'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.circuitworkbench.source' version='1.0.0.202507141918'>
@@ -1716,7 +1716,7 @@
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='com.circuitworkbench.feature.cdt' version='1.0.0.202508031353'>
       <properties size='1'>
-        <property name='download.size' value='12922'/>
+        <property name='download.size' value='12924'/>
       </properties>
       <repositoryProperties size='1'>
         <property name='artifact.folder' value='true'/>
@@ -1757,9 +1757,9 @@
         <property name='download.size' value='62561'/>
       </properties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='org.eclipse.gef' version='3.22.0.202505280821'>
+    <artifact classifier='osgi.bundle' id='org.eclipse.nebula.widgets.cdatetime' version='1.5.0.202509131601'>
       <properties size='1'>
-        <property name='download.size' value='1153719'/>
+        <property name='download.size' value='116089'/>
       </properties>
     </artifact>
     <artifact classifier='osgi.bundle' id='org.eclipse.gmf.runtime.common.ui.services' version='1.10.0.202501291447'>

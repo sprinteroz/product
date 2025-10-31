@@ -2,7 +2,7 @@
 <feature
       id="com.circuitworkbench.feature.sdt"
       label="%featureName"
-      version="1.0.0.202508031353"
+      version="1.0.0.202510311533"
       provider-name="%providerName">
 
    <description>
@@ -23,7 +23,7 @@
 
    <plugin
          id="com.circuitworkbench.launcher"
-         version="1.0.0.202507262117"/>
+         version="1.0.0.202510311533"/>
 
    <plugin
          id="com.circuitworkbench.graph"
