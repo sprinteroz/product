@@ -28,4 +28,27 @@ Go to the program installation directory and click on the launcher icon.
 
 The welcome page will be shown when the application first launches. Use the links to the guides and tutorials to get familiarize with the application.
 
-![app_window](https://github.com/user-attachments/assets/bee9becd-71bf-4803-a758-2f07ad35f3e1)
+<img width="1186" height="893" alt="schematic" src="https://github.com/user-attachments/assets/07ce2d7f-e11e-4fcf-b72b-091806b2396f" />
+
+
+
+
+<img width="799" height="695" alt="run_config" src="https://github.com/user-attachments/assets/65729c70-e240-4240-aada-70c5c6fc1acc" />
+
+
+
+
+<img width="1186" height="893" alt="graph_viewer" src="https://github.com/user-attachments/assets/e22c7fc7-d969-4657-9390-5d1d8171139b" />
+
+
+
+
+<img width="1186" height="893" alt="notation_diagram" src="https://github.com/user-attachments/assets/59d1d32d-f834-441d-b47c-9d9b7bc28ac5" />
+
+
+
+
+<img width="1186" height="893" alt="semantic" src="https://github.com/user-attachments/assets/ec263b38-9d95-45cc-9ba0-82bda887880d" />
+
+
+
